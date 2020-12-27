@@ -16,7 +16,7 @@ console.log(search(5, {a: 3, b: 5, c: 9})); // true
 // search(5, {a: [1, 2, 3, 5, 7, 9], c: 8, s: 6}); // true
 // search(5, {a: [1, 2, {s: 4, c: {u: 5}},], s: 9}); // true
 
-let data = {
+let test = {
     person: 'Mike',
     address: '123 Street, state, country',
     relatedCustomers: {
@@ -27,4 +27,4 @@ let data = {
     }
 };
 
-//console.log(search('person', data)); // ['Mike', 'Hailey']
+console.log(search('person', test));
